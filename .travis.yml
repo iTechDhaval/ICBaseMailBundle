@@ -6,9 +6,7 @@ php:
 
 before_script:
     - composer install --dev
-    - pyrus install pear/PHP_CodeSniffer
-    - phpenv rehash
 
 script:
     - phpunit
-    - phpcs -np --extensions=php --ignore=vendor/*,Tests/* --standard=PSR2 .
+    - vendor/bin/phpcs -np --extensions=php --ignore=vendor/*,Tests/* --standard=ruleset.xml .
