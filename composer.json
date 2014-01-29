@@ -13,7 +13,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/instaclick/object-calisthenics-sniffs.git"
+            "url": "https://github.com/instaclick/ObjectCalisthenicsSniffs.git"
         },
         {
             "type": "vcs",
